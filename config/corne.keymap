@@ -81,13 +81,13 @@
 // │(held)│Left │Down │Right│     │     │   │     │  4  │  5  │  6  │  ,  │Enter │
 // │      │ BT1 │ BT2 │ BT3 │     │BTclr│   │     │  1  │  2  │  3  │  =  │ PgDn │
 // └──────┴─────┴─────┼─────┼─────┼─────┤   ├─────┼─────┼─────┼─────┴─────┴──────┘
-//                    │     │     │BOOT │   │  0  │  .  │     │
+//                    │     │     │BOOT │   │  0  │  .  │  0  │
 //                    └─────┴─────┴─────┘   └─────┴─────┴─────┘
             bindings = <
    &trans  &kp HOME     &kp UP       &kp END      &trans  &trans        &trans &kp N7 &kp N8 &kp N9 &kp PLUS  &kp PG_UP
    &trans  &kp LEFT     &kp DOWN     &kp RIGHT    &trans  &trans        &trans &kp N4 &kp N5 &kp N6 &kp COMMA &kp RET
    &trans  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &trans  &bt BT_CLR    &trans &kp N1 &kp N2 &kp N3 &kp EQUAL &kp PG_DN
-                                &trans  &trans  &bootloader             &kp N0 &kp DOT &trans
+                                &trans  &trans  &bootloader             &kp N0 &kp DOT &kp N0
             >;
         };
 
